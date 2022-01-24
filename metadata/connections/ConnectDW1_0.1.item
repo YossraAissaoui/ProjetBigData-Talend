@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_9MqGsHrcEeyTs-VfevfPiA" name="ConnectDW1" id="_0Vgf0HrcEeyTs-VfevfPiA" label="ConnectDW1" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@192.168.1.144:1521:XE" dbVersionString="ORACLE_18" Port="1521" Username="wy2m" Password="enc:system.encryption.key.v1:kQ1RU4DNpv5OAWwPbQrp5ByDog/3kiVz1UajjWxg9++sEeae" ServerName="192.168.1.144" SID="XE" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_9MqtwHrcEeyTs-VfevfPiA" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_9RxQMHrcEeyTs-VfevfPiA" tag="package filter" value=""/>
+  <taggedValue xmi:id="_9R0TgHrcEeyTs-VfevfPiA" tag="Status" value=""/>
+  <taggedValue xmi:id="_9R0TgXrcEeyTs-VfevfPiA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_9R0TgnrcEeyTs-VfevfPiA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_9R0Tg3rcEeyTs-VfevfPiA" tag="Description" value=""/>
+  <taggedValue xmi:id="_9R06kHrcEeyTs-VfevfPiA" tag="Author" value=""/>
+  <taggedValue xmi:id="_9R06kXrcEeyTs-VfevfPiA" tag="otherParameter"/>
+  <parameters xmi:id="_9MqtwXrcEeyTs-VfevfPiA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+</TalendMetadata:DatabaseConnection>

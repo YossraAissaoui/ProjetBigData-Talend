@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/jobs</deletedFolders>
+  <deletedItems id="_0Vgf0HrcEeyTs-VfevfPiA" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_0XSkAHxGEeyDR_dzJxwJSw" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_Jb7qgHreEeyTs-VfevfPiA" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_UjMO0HsKEeyTs-VfevfPiA" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_avSzQHrfEeyTs-VfevfPiA" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_n-WDoHxBEeymI6UzwHxIhw" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_uKej0HxDEeyvZrT5LCr0aQ" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_Q7Qv0HzAEeyWTIHw3o2Qzw" path="" type="PROCESS"/>
+</recyclebin:RecycleBin>

@@ -1,0 +1,20 @@
+{
+  "itemId" : "_frazEHnvEeyTs-VfevfPiA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_E9DlYHvkEeyVltNmNOkrKw",
+    "parameterList" : [ {
+      "id" : "_E9S18XvkEeyVltNmNOkrKw",
+      "name" : "Connect_Data_Password"
+    }, {
+      "id" : "_E9S18nvkEeyVltNmNOkrKw",
+      "name" : "Connect_Data_Login"
+    }, {
+      "id" : "_E9S183vkEeyVltNmNOkrKw",
+      "name" : "Connect_Data_AdditionalParams"
+    }, {
+      "id" : "_E9S19HvkEeyVltNmNOkrKw",
+      "name" : "Connect_Data_File"
+    } ]
+  } ]
+}

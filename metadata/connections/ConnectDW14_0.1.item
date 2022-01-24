@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_R2CHEHyhEeyXoI8aV1rWFA" name="ConnectDW14" id="_knAvQHygEeyXoI8aV1rWFA" label="ConnectDW14" DatabaseType="Access" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" URL="jdbc:ucanaccess://context.connect_data_file;context.Connect_Data_AdditionalParams" Port="" Username="orion_DW_user" Password="enc:system.encryption.key.v1:4mz8HWK+hxxsYQjVjA+pnPbq2k2CFdZ8CoHfztwYjT9pILYDPXIDqy8=" ServerName="" FileFieldName="context.Connect_Data_File" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="access_id" ProductId="ACCESS" AdditionalParams="context.Connect_Data_AdditionalParams" StandardSQL="true" SQLMode="false">
+  <taggedValue xmi:id="_R2CHEXyhEeyXoI8aV1rWFA" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_R2gBIHyhEeyXoI8aV1rWFA" tag="package filter" value=""/>
+  <taggedValue xmi:id="_R2gBIXyhEeyXoI8aV1rWFA" tag="Status" value=""/>
+  <taggedValue xmi:id="_R2gBInyhEeyXoI8aV1rWFA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_R2gBI3yhEeyXoI8aV1rWFA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_R2gBJHyhEeyXoI8aV1rWFA" tag="Description" value=""/>
+  <taggedValue xmi:id="_R2gBJXyhEeyXoI8aV1rWFA" tag="Author" value=""/>
+  <taggedValue xmi:id="_R2gBJnyhEeyXoI8aV1rWFA" tag="otherParameter"/>
+  <parameters xmi:id="_R2CHEnyhEeyXoI8aV1rWFA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  <parameters xmi:id="_R2CHE3yhEeyXoI8aV1rWFA" key="CONN_PARA_KEY_USERNAME" value="orion_DW_user"/>
+</TalendMetadata:DatabaseConnection>

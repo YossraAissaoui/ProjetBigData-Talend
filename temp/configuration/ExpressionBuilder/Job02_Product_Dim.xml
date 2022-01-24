@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.PRODUCT_ID">
+  <variables name="row1.PRODUCT_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row1.PRODUCT_NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.SUPPLIER_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row1.PRODUCT_LEVEL" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row1.PRODUCT_REF_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row3.SUPPLIER_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row3.SUPPLIER_NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.STREET_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row3.SUPPLIER_ADDRESS" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.SUP_STREET_NUMBER" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.COUNTRY" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.PRODUCT_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row4.PRODUCT_NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.SUPPLIER_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row4.PRODUCT_LEVEL" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row4.PRODUCT_REF_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row5.PRODUCT_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row5.PRODUCT_NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.SUPPLIER_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row5.PRODUCT_LEVEL" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row5.PRODUCT_REF_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.PRODUCT_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.PRODUCT_NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.SUPPLIER_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.PRODUCT_LEVEL" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.PRODUCT_REF_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row7.PRODUCT_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row7.PRODUCT_NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.SUPPLIER_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row7.PRODUCT_LEVEL" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row7.PRODUCT_REF_ID" value="null" talendType="id_Double" nullable="true"/>
+</expression:EMFExpression>

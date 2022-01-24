@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_XHrYwHnhEeyTs-VfevfPiA" name="Connect_Data" id="_2L9loHngEeyTs-VfevfPiA" label="Connect_Data" dataPackage="_lGV88HnqEeyTs-VfevfPiA" ContextMode="true" ContextId="_E9DlYHvkEeyVltNmNOkrKw" contextName="Default" DatabaseType="Access" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" URL="jdbc:ucanaccess://C:/Users/wiemh/Desktop/projetData_Nous/orion.mdb;jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" Port="" Username="context.Connect_Data_Login" Password="context.Connect_Data_Password" ServerName="" DatasourceName="" FileFieldName="context.Connect_Data_File" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="access_id" ProductId="ACCESS" AdditionalParams="context.Connect_Data_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_XHsm4HnhEeyTs-VfevfPiA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_XIQnkHnhEeyTs-VfevfPiA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_XIXVQHnhEeyTs-VfevfPiA" tag="Status" value=""/>
+    <taggedValue xmi:id="_XIX8UHnhEeyTs-VfevfPiA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_XIX8UXnhEeyTs-VfevfPiA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_XIX8UnnhEeyTs-VfevfPiA" tag="Description" value=""/>
+    <taggedValue xmi:id="_XIX8U3nhEeyTs-VfevfPiA" tag="Author" value=""/>
+    <taggedValue xmi:id="_XIX8VHnhEeyTs-VfevfPiA" tag="otherParameter"/>
+    <taggedValue xmi:id="_SdENwHvkEeyVltNmNOkrKw" tag="DB ProductName" value="Ucanaccess for access db(Jet) using hasqldb"/>
+    <taggedValue xmi:id="_SdENwXvkEeyVltNmNOkrKw" tag="DB ProductVersion" value="V2003 [VERSION_4]"/>
+    <taggedValue xmi:id="_SdENwnvkEeyVltNmNOkrKw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_XHsm4XnhEeyTs-VfevfPiA" key="CONN_PARA_KEY_USERNAME" value="context.Connect_Data_Login"/>
+    <parameters xmi:id="_LwoLgHniEeyTs-VfevfPiA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_lGV88HnqEeyTs-VfevfPiA" name="Connect_Data" dataManager="_XHrYwHnhEeyTs-VfevfPiA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV88XnqEeyTs-VfevfPiA" name="CITY" id="_Ye4tMHnqEeyTs-VfevfPiA" label="CITY" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV88nnqEeyTs-VfevfPiA" name="CITY_ID" label="CITY_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV883nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV89HnqEeyTs-VfevfPiA" name="CITY_NAME" label="CITY_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV89XnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV89nnqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV893nqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV8-HnqEeyTs-VfevfPiA" name="PRODUCT_LEVEL" id="_YfGvoHnqEeyTs-VfevfPiA" label="PRODUCT_LEVEL" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV8-XnqEeyTs-VfevfPiA" name="PRODUCT_LEVEL" label="PRODUCT_LEVEL" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV8-nnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV8-3nqEeyTs-VfevfPiA" name="PRODUCT_LEVEL_NAME" label="PRODUCT_LEVEL_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV8_HnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV8_XnqEeyTs-VfevfPiA" name="ORGANIZATION" id="_YfLBEHnqEeyTs-VfevfPiA" label="ORGANIZATION" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV8_nnqEeyTs-VfevfPiA" name="EMPLOYEE_ID" label="EMPLOYEE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV8_3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9AHnqEeyTs-VfevfPiA" name="ORG_NAME" label="ORG_NAME" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9AXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9AnnqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9A3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9BHnqEeyTs-VfevfPiA" name="ORG_LEVEL" label="ORG_LEVEL" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9BXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9BnnqEeyTs-VfevfPiA" name="START_DATE" label="START_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGV9B3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9CHnqEeyTs-VfevfPiA" name="END_DATE" label="END_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGV9CXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9CnnqEeyTs-VfevfPiA" name="ORG_REF_ID" label="ORG_REF_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9C3nqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV9DHnqEeyTs-VfevfPiA" name="PRICE_LIST" id="_YfP5kHnqEeyTs-VfevfPiA" label="PRICE_LIST" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9DXnqEeyTs-VfevfPiA" name="PRODUCT_ID" label="PRODUCT_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9DnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9D3nqEeyTs-VfevfPiA" name="START_DATE" label="START_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGV9EHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9EXnqEeyTs-VfevfPiA" name="END_DATE" label="END_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGV9EnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9E3nqEeyTs-VfevfPiA" name="FACTOR" label="FACTOR" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9FHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9FXnqEeyTs-VfevfPiA" name="UNIT_COST_PRICE" label="UNIT_COST_PRICE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9FnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9F3nqEeyTs-VfevfPiA" name="UNIT_SALES_PRICE" label="UNIT_SALES_PRICE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9GHnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV9GXnqEeyTs-VfevfPiA" name="PRODUCT_LIST" id="_YfUyEHnqEeyTs-VfevfPiA" label="PRODUCT_LIST" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9GnnqEeyTs-VfevfPiA" name="PRODUCT_ID" label="PRODUCT_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9G3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9HHnqEeyTs-VfevfPiA" name="PRODUCT_NAME" label="PRODUCT_NAME" length="45" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9HXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9HnnqEeyTs-VfevfPiA" name="SUPPLIER_ID" label="SUPPLIER_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9H3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9IHnqEeyTs-VfevfPiA" name="PRODUCT_LEVEL" label="PRODUCT_LEVEL" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9IXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9InnqEeyTs-VfevfPiA" name="PRODUCT_REF_ID" label="PRODUCT_REF_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9I3nqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV9JHnqEeyTs-VfevfPiA" name="POSTAL_CODE" id="_YfaRoHnqEeyTs-VfevfPiA" label="POSTAL_CODE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9JXnqEeyTs-VfevfPiA" name="POSTAL_CODE_ID" label="POSTAL_CODE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9JnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9J3nqEeyTs-VfevfPiA" name="POSTAL_CODE" label="POSTAL_CODE" length="10" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9KHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9KXnqEeyTs-VfevfPiA" name="CITY_NAME" label="CITY_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9KnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9K3nqEeyTs-VfevfPiA" name="CITY_ID" label="CITY_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9LHnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV9LXnqEeyTs-VfevfPiA" name="ORG_LEVEL" id="_YfejEHnqEeyTs-VfevfPiA" label="ORG_LEVEL" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9LnnqEeyTs-VfevfPiA" name="ORG_LEVEL_NAME" label="ORG_LEVEL_NAME" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9L3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9MHnqEeyTs-VfevfPiA" name="ORG_LEVEL" label="ORG_LEVEL" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9MXnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV9MnnqEeyTs-VfevfPiA" name="COUNTRY" id="_Yfi0gHnqEeyTs-VfevfPiA" label="COUNTRY" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9M3nqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9NHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9NXnqEeyTs-VfevfPiA" name="COUNTRY_NAME" label="COUNTRY_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9NnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9N3nqEeyTs-VfevfPiA" name="POPULATION" label="POPULATION" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9OHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9OXnqEeyTs-VfevfPiA" name="COUNTRY_ID" label="COUNTRY_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9OnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9O3nqEeyTs-VfevfPiA" name="CONTINENT_ID" label="CONTINENT_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9PHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9PXnqEeyTs-VfevfPiA" name="COUNTRY_FORMERNAME" label="COUNTRY_FORMERNAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9PnnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGV9P3nqEeyTs-VfevfPiA" name="CUSTOMER" id="_YfqwUHnqEeyTs-VfevfPiA" label="CUSTOMER" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9QHnqEeyTs-VfevfPiA" name="CUSTOMER_ID" label="CUSTOMER_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGV9QXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9QnnqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9Q3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9RHnqEeyTs-VfevfPiA" name="GENDER" label="GENDER" length="1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9RXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9RnnqEeyTs-VfevfPiA" name="PERSONAL_ID" label="PERSONAL_ID" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9R3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9SHnqEeyTs-VfevfPiA" name="CUSTOMER_NAME" label="CUSTOMER_NAME" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9SXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9SnnqEeyTs-VfevfPiA" name="CUSTOMER_FIRSTNAME" label="CUSTOMER_FIRSTNAME" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGV9S3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGV9THnqEeyTs-VfevfPiA" name="CUSTOMER_LASTNAME" label="CUSTOMER_LASTNAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkAHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkAXnqEeyTs-VfevfPiA" name="BIRTH_DATE" label="BIRTH_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGWkAnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkA3nqEeyTs-VfevfPiA" name="CUSTOMER_ADDRESS" label="CUSTOMER_ADDRESS" length="45" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkBHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkBXnqEeyTs-VfevfPiA" name="STREET_ID" label="STREET_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkBnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkB3nqEeyTs-VfevfPiA" name="STREET_NUMBER" label="STREET_NUMBER" length="8" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkCHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkCXnqEeyTs-VfevfPiA" name="CUSTOMER_TYPE_ID" label="CUSTOMER_TYPE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkCnnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkC3nqEeyTs-VfevfPiA" name="COUNTY" id="_Yfw28HnqEeyTs-VfevfPiA" label="COUNTY" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkDHnqEeyTs-VfevfPiA" name="COUNTY_ID" label="COUNTY_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkDXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkDnnqEeyTs-VfevfPiA" name="COUNTY_TYPE" label="COUNTY_TYPE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkD3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkEHnqEeyTs-VfevfPiA" name="COUNTY_NAME" label="COUNTY_NAME" length="60" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkEXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkEnnqEeyTs-VfevfPiA" name="PROVINCE_TYPE" label="PROVINCE_TYPE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkE3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkFHnqEeyTs-VfevfPiA" name="PROVINCE_NAME" label="PROVINCE_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkFXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkFnnqEeyTs-VfevfPiA" name="REGION_NAME" label="REGION_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkF3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkGHnqEeyTs-VfevfPiA" name="REGION_TYPE" label="REGION_TYPE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkGXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkGnnqEeyTs-VfevfPiA" name="STATE_ID" label="STATE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkG3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkHHnqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkHXnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkHnnqEeyTs-VfevfPiA" name="CONTINENT" id="_YfzTMHnqEeyTs-VfevfPiA" label="CONTINENT" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkH3nqEeyTs-VfevfPiA" name="CONTINENT_ID" label="CONTINENT_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkIHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkIXnqEeyTs-VfevfPiA" name="CONTINENT_NAME" label="CONTINENT_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkInnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkI3nqEeyTs-VfevfPiA" name="STATE" id="_Yf29kHnqEeyTs-VfevfPiA" label="STATE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkJHnqEeyTs-VfevfPiA" name="STATE_ID" label="STATE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkJXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkJnnqEeyTs-VfevfPiA" name="STATE_TYPE" label="STATE_TYPE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkJ3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkKHnqEeyTs-VfevfPiA" name="STATE_CODE" label="STATE_CODE" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkKXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkKnnqEeyTs-VfevfPiA" name="STATE_NAME" label="STATE_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkK3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkLHnqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkLXnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkLnnqEeyTs-VfevfPiA" name="STREET_CODE" id="_Yf-SUHnqEeyTs-VfevfPiA" label="STREET_CODE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkL3nqEeyTs-VfevfPiA" name="STREET_ID" label="STREET_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkMHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkMXnqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkMnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkM3nqEeyTs-VfevfPiA" name="STREET_NAME" label="STREET_NAME" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkNHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkNXnqEeyTs-VfevfPiA" name="CITY_ID" label="CITY_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkNnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkN3nqEeyTs-VfevfPiA" name="POSTAL_CODE" label="POSTAL_CODE" length="10" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkOHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkOXnqEeyTs-VfevfPiA" name="FROM_STREET_NUM" label="FROM_STREET_NUM" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkOnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkO3nqEeyTs-VfevfPiA" name="TO_STREET_NUM" label="TO_STREET_NUM" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkPHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkPXnqEeyTs-VfevfPiA" name="CITY_NAME" label="CITY_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkPnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkP3nqEeyTs-VfevfPiA" name="COUNT" label="COUNT" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkQHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkQXnqEeyTs-VfevfPiA" name="COUNTY_ID" label="COUNTY_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkQnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkQ3nqEeyTs-VfevfPiA" name="POSTAL_CODE_ID" label="POSTAL_CODE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkRHnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkRXnqEeyTs-VfevfPiA" name="SUPPLIER" id="_YgIqYHnqEeyTs-VfevfPiA" label="SUPPLIER" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkRnnqEeyTs-VfevfPiA" name="SUPPLIER_ID" label="SUPPLIER_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkR3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkSHnqEeyTs-VfevfPiA" name="SUPPLIER_NAME" label="SUPPLIER_NAME" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkSXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkSnnqEeyTs-VfevfPiA" name="STREET_ID" label="STREET_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkS3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkTHnqEeyTs-VfevfPiA" name="SUPPLIER_ADDRESS" label="SUPPLIER_ADDRESS" length="45" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkTXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkTnnqEeyTs-VfevfPiA" name="SUP_STREET_NUMBER" label="SUP_STREET_NUMBER" length="8" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkT3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkUHnqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkUXnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkUnnqEeyTs-VfevfPiA" name="CUSTOMER_TYPE" id="_Yjm1IHnqEeyTs-VfevfPiA" label="CUSTOMER_TYPE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkU3nqEeyTs-VfevfPiA" name="CUSTOMER_TYPE_ID" label="CUSTOMER_TYPE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkVHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkVXnqEeyTs-VfevfPiA" name="CUSTOMER_TYPE" label="CUSTOMER_TYPE" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkVnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkV3nqEeyTs-VfevfPiA" name="CUSTOMER_GROUP_ID" label="CUSTOMER_GROUP_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkWHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkWXnqEeyTs-VfevfPiA" name="CUSTOMER_GROUP" label="CUSTOMER_GROUP" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkWnnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkW3nqEeyTs-VfevfPiA" name="DISCOUNT" id="_Yjp4cHnqEeyTs-VfevfPiA" label="DISCOUNT" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkXHnqEeyTs-VfevfPiA" name="PRODUCT_ID" label="PRODUCT_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkXXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkXnnqEeyTs-VfevfPiA" name="START_DATE" label="START_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGWkX3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkYHnqEeyTs-VfevfPiA" name="END_DATE" label="END_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGWkYXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkYnnqEeyTs-VfevfPiA" name="DISCOUNT" label="DISCOUNT" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkY3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkZHnqEeyTs-VfevfPiA" name="UNIT_SALES_PRICE" label="UNIT_SALES_PRICE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkZXnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkZnnqEeyTs-VfevfPiA" name="GEO_TYPE" id="_Yjuw8HnqEeyTs-VfevfPiA" label="GEO_TYPE" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkZ3nqEeyTs-VfevfPiA" name="GEO_TYPE_NAME" label="GEO_TYPE_NAME" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkaHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkaXnqEeyTs-VfevfPiA" name="COUNTRY" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_lGWkannqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWka3nqEeyTs-VfevfPiA" name="GEO_TYPE_ID" label="GEO_TYPE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkbHnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkbXnqEeyTs-VfevfPiA" name="ORDER_ITEM" id="_Yj2FsHnqEeyTs-VfevfPiA" label="ORDER_ITEM" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkbnnqEeyTs-VfevfPiA" name="ORDER_ID" label="ORDER_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkb3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkcHnqEeyTs-VfevfPiA" name="ORDER_ITEM_NUM" label="ORDER_ITEM_NUM" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkcXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkcnnqEeyTs-VfevfPiA" name="PRODUCT_ID" label="PRODUCT_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkc3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkdHnqEeyTs-VfevfPiA" name="QUANTITY" label="QUANTITY" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkdXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkdnnqEeyTs-VfevfPiA" name="DISCOUNT" label="DISCOUNT" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkd3nqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkeHnqEeyTs-VfevfPiA" name="TOTAL_RETAIL_PRICE" label="TOTAL_RETAIL_PRICE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkeXnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkennqEeyTs-VfevfPiA" name="COSTPRICE_PER_UNIT" label="COSTPRICE_PER_UNIT" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWke3nqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_lGWkfHnqEeyTs-VfevfPiA" name="ORDERS" id="_Yj5wEHnqEeyTs-VfevfPiA" label="ORDERS" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkfXnqEeyTs-VfevfPiA" name="ORDER_ID" label="ORDER_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkfnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkf3nqEeyTs-VfevfPiA" name="ORDER_TYPE" label="ORDER_TYPE" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkgHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkgXnqEeyTs-VfevfPiA" name="EMPLOYEE_ID" label="EMPLOYEE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkgnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkg3nqEeyTs-VfevfPiA" name="CUSTOMER_ID" label="CUSTOMER_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_lGWkhHnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkhXnqEeyTs-VfevfPiA" name="ORDER_DATE" label="ORDER_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGWkhnnqEeyTs-VfevfPiA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_lGWkh3nqEeyTs-VfevfPiA" name="DELIVERY_DATE" label="DELIVERY_DATE" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_lGWkiHnqEeyTs-VfevfPiA"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

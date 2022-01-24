@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Customer_type.CUSTOMER_GROUP">
+  <variables name="Customer.CUSTOMER_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="Customer.COUNTRY" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Customer.GENDER" value="null" talendType="id_Character" nullable="true"/>
+  <variables name="Customer.PERSONAL_ID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Customer.CUSTOMER_NAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Customer.CUSTOMER_FIRSTNAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Customer.CUSTOMER_LASTNAME" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Customer.BIRTH_DATE" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="Customer.CUSTOMER_ADDRESS" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Customer.STREET_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="Customer.STREET_NUMBER" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Customer.CUSTOMER_TYPE_ID" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="Customer_type.CUSTOMER_TYPE_ID" value="0" talendType="id_Double"/>
+  <variables name="Customer_type.CUSTOMER_TYPE" value="null" talendType="id_Character" nullable="true"/>
+  <variables name="Customer_type.CUSTOMER_GROUP_ID" value="0" talendType="id_Double"/>
+  <variables name="Customer_type.CUSTOMER_GROUP" value="null" talendType="id_Character" nullable="true"/>
+  <variables name="Mathematical.INT(TalendDate.formatDate(&quot;yyyy&quot;,TalendDate.getCurrentDate()))-Mathematical.INT(TalendDate.formatDate(&quot;yyyy&quot;,Customer.BIRTH_DATE)) " value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="Var.Age&lt;30?&quot;&lt;30 years&quot;: &#xD;&#xA;Var.Age&lt;46?&quot;30-45 years&quot;: &#xD;&#xA;Var.Age&lt;61?&quot;46-60 years&quot;: &#xD;&#xA;Var.Age&lt;76?&quot;61-75 years&quot;:&#xD;&#xA;&quot;>75 years&quot; " value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

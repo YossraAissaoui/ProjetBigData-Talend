@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_E9S18HvkEeyVltNmNOkrKw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_E9S18XvkEeyVltNmNOkrKw" comment="" name="Connect_Data_Password" prompt="Connect_Data_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+  <contextParameter xmi:id="_E9S18nvkEeyVltNmNOkrKw" comment="" name="Connect_Data_Login" prompt="Connect_Data_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_E9S183vkEeyVltNmNOkrKw" comment="" name="Connect_Data_AdditionalParams" prompt="Connect_Data_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false"/>
+  <contextParameter xmi:id="_E9S19HvkEeyVltNmNOkrKw" comment="" name="Connect_Data_File" prompt="Connect_Data_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/wiemh/Desktop/projetData_Nous/orion.mdb"/>
+</talendfile:ContextType>
